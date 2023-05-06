@@ -26,7 +26,7 @@ class ProductManager{
             return console.error("Not found")
         }
         else{
-            return console.log("Producto con el ID solicitado: ", productID)
+            return console.log("Product found", productID)
         }
     }
 }
@@ -37,8 +37,7 @@ const pMAnager = new ProductManager()
     pMAnager.addProduct("cinto negro", "cinturon hombre negro clásico", 10000, "url", 4,20);
     pMAnager.addProduct("cinturon mujer negro", "cinturon hebilla corazon negro", 12000, "url", 5,15);
    
-    pMAnager.getProductById(22)
+   
 
 
 
-console.log(ProductManager);
